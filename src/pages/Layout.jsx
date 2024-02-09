@@ -12,6 +12,7 @@ function Layout() {
     </>
   )
 }
+
 // function Dashboard() {
 //     return (
 //       <div>
@@ -29,10 +30,7 @@ function Layout() {
 //     return (
 //       <Routes>
 //         <Route path="/" element={<Dashboard />}>
-//           <Route
-//             path="messages"
-//             element={<DashboardMessages />}
-//           />
+//           <Route path="messages" element={<DashboardMessages />} />
 //           <Route path="tasks" element={<DashboardTasks />} />
 //         </Route>
 //       </Routes>

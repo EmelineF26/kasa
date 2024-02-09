@@ -1,7 +1,7 @@
 function HomePage() {
     return(
         <>
-        <p>Je suis la HomePage</p>
+        <p>Chez vous, partout et ailleurs</p>
         </>
     )
 }
