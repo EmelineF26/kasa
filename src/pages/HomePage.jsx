@@ -1,5 +1,7 @@
-import './styles/HomePage.scss';
-import Logo from './images/logoKasa.png';
+import style from './HomePage.module.scss';
+import Logo from '../images/logoKasa.png';
+import Cards from '../components/Cards';
+import data from '../data/logements.json';
 
 function HomePage() {
     return(
