@@ -39,7 +39,9 @@ function HomePage() {
     return (
         <div className={style.homePage}>
           <Banner text="Chez vous, partout et ailleurs" img={BannerImage} />
-            <Cards data={data} /> {/* Utilisation du composant Cards avec les données provenant de logements.json */}
+            {data.map((item, index) => (
+              <Cards id={item.id} title={item.title} cover={item.cover} />
+                 ))}
         </div>
     );
 }

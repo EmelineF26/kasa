@@ -5,8 +5,10 @@ import style from './Cards.module.scss';
 function Cards({id, title, cover}) {
     return(
         <Link to={'/accomodation/${id}'}>
-            <img src={cover} alt={"Kasa -" + title} />
-            <h3 className={style.title}>{title}</h3>
+            <div className={style.styleCards}>
+                <img src={cover} className={style.Image} alt={"Kasa -" + title} />
+                <h3 className={style.title}>{title}</h3>
+            </div>
         </Link>
     )
 }
