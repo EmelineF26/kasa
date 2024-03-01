@@ -39,9 +39,11 @@ function HomePage() {
     return (
         <div className={style.homePage}>
           <Banner text="Chez vous, partout et ailleurs" img={BannerImage} />
-            {data.map((item, index) => (
-              <Cards id={item.id} title={item.title} cover={item.cover} />
-                 ))}
+            <div className={style.cardsContainer}>
+              {data.map((item, index) => (
+                <Cards key={item.id} id={item.id} title={item.title} cover={item.cover} />
+                  ))}
+            </div>
         </div>
     );
 }
