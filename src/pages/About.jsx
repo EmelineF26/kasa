@@ -1,8 +1,13 @@
+import style from './About.module.scss';
+import Banner from '../components/Banner';
+import Collapse from '../components/Collapse';
+
 function About() {
-    return(
-        <>
-        <p>Je suis la page à propos</p>
-        </>
+    return (
+        <div className={style.about}>
+            <Banner />
+            <Collapse />
+        </div>
     )
 }
 

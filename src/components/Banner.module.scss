@@ -1,0 +1,22 @@
+.banner {
+    padding: 25px;
+}
+
+.bannerImg {
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 208px;
+    width: 100%;
+    filter: brightness(84%);
+}
+
+.bannerText {
+    position: absolute;
+    font-weight: 500;
+    font-size: 48px;
+    color: white;
+    margin-top: 7%;
+    margin-left: 22%;
+    z-index: 1;
+    line-height: 68px;
+}
