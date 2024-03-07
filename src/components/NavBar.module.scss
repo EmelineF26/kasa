@@ -4,15 +4,26 @@
     padding: 16px;
     gap: 64px;
     list-style: none;
-    color: #FF6060;
+    text-decoration: none;
 }
 
 .navbar {
     display: flex;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 .Logo {
     padding: 20px 25px;
     height: 54px;
+}
+
+.Nav {
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.Nav:active {
+    text-decoration: underline solid;
 }
