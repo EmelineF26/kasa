@@ -1,8 +1,8 @@
 .navList {
     display: flex;
-    margin-left: 58%;
-    padding: 16px;
-    gap: 64px;
+    margin-left: 56%;
+    padding: 11px;
+    gap: 59px;
     list-style: none;
     text-decoration: none;
 }
@@ -15,7 +15,7 @@
 }
 
 .Logo {
-    padding: 20px 25px;
+    padding: 18px 22px;
     height: 54px;
 }
 
@@ -26,4 +26,9 @@
 
 .Nav:active {
     text-decoration: underline solid;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 18px;
 }

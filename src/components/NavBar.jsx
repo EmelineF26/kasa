@@ -11,12 +11,12 @@ function NavBar() {
                 <ul className={style.navList}>
                     <li>
                         <Link to='/' className={style.Nav}>
-                            <p>Accueil</p>
+                            <h3>Accueil</h3>
                         </Link>
                     </li>
                     <li>
                         <Link to='/About' className={style.Nav}>
-                            <p>A propos</p>
+                            <h3>A Propos</h3>
                         </Link>
                     </li>
                 </ul>
