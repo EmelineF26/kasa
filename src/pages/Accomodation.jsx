@@ -1,16 +1,22 @@
 import React from "react";
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 import data from '../data/logements.json';
 
 function Accomodation() {
-    return (
-        <>
-        <NavBar />
-        <p>Je suis la page de location</p>
-        <Footer />
-        </>
-    )
+
+    const dataLogements = () => {
+        return (
+            <div>
+                <p>Caroussel</p>
+                {/* <ul>
+                    {data.map(({ title, location }) => (
+                        <li key={title}>{title}</li>
+                    ))}
+                </ul> */}
+            </div>
+        );
+    };
+
+    return dataLogements();
 }
 
 export default Accomodation;
