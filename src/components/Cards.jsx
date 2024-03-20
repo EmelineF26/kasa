@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import style from './Cards.module.scss';
 
 function Cards({id, title, cover}) {
-    return(
+    return (
         <Link to={`/accomodation/${id}`} className={style.styleCards}>
             <div>
                     <img src={cover} className={style.Image} alt={"Kasa -" + title} />
