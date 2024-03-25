@@ -1,12 +1,13 @@
 import style from './About.module.scss';
-import Collapse from '../components/Collapse';
+import '../components/Collapse.module.scss';
 import ImgBanner from '../images/aboutBanner.png';
+import CollapseAbout from '../components/CollapseAbout';
 
 function About() {
     return (
         <div className={style.about}>
             <img src={ImgBanner} className={style.ImgBanner} />
-            <Collapse />
+            <CollapseAbout />
         </div>
     )
 }
