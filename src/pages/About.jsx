@@ -14,10 +14,12 @@ const aProposData = {
 function About() {
     return (
         <div className={style.about}>
-            <img src={ImgBanner} className={style.ImgBanner} />
-            {aProposData.text.map((data) => (
-                <Collapse key={data.id} title={data.title} content={data.content} icon={data.icon} />
-            ))}
+            <img src={ImgBanner} className={style.ImgBanner} alt='Bannière' />
+                <div className={style.content}>
+                {aProposData.text.map((data) => (
+                    <Collapse key={data.id} title={data.title} content={data.content} icon={data.icon} />
+                ))}
+                </div>
         </div>
     )
 }

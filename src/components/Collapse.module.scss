@@ -2,8 +2,22 @@
     width: 100%;
 }
 
-button {
+.content {
     width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    // padding-left: 12%;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 100%;
     display: flex;
     border-radius: 6px;
     background-color: #FF6060;
@@ -12,11 +26,12 @@ button {
     padding: 5px;
 }
 
-.blocCollapse {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 20px 0;
-}
+// .blocCollapse {
+//     // // display: flex;
+//     // justify-content: center;
+//     // // flex-direction: column;
+//     // // margin: 20px 0 20px 0;
+// }
 
 .buttonCollapse {
     display: flex;
@@ -39,7 +54,25 @@ button {
     transform: rotate(-180deg);
 }
 
-p {
+.divCollapse {
+    max-height: 0;
     color: #FF6060;
-    padding-right: 25%;
+    background-color: rgba(246, 246, 246, 0.45);
+    // padding-right: 25%;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    padding: 0;
+    margin: 0 0 1em 0;
+    border-radius: 0 0 10px 10px;
+    line-height: 25px;
 }
+
+.divOpen {
+    max-height: 200px;
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+}
+
+// .divClosed {
+//     transition: all 0.2s ease-out;
+// }
