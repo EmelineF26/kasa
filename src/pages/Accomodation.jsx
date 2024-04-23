@@ -17,19 +17,25 @@ function Accomodation() {
 
     return (
         <div>
-            <h2>{logement.title}</h2>
-            <h4>{logement.location}</h4>
+            <h1>{logement.title}</h1>
+            <h3>{logement.location}</h3>
                 <div>
                     {/* Emplacement des tags */}
                 </div>
-            <h5>{logement.host.name}</h5>
+            <div className={style.divHost}>
+                <h4 className={style.hostName}>{logement.host.name}</h4>
                 <img src={logement.host.picture} className={style.imgHost} alt='Avatar de la personne hébergeur' />
+            </div>
                 <div>
                     {/* Emplacement des stars */}
                 </div>
             <div className={style.accomodationCollapse}>
-                <Collapse title={'Description'} content={logement.description} />
-                <Collapse title={'Équipments'} content={logement.equipments} />
+                <div className={style.descriptionCollapse}>
+                    <Collapse title={'Description'} content={logement.description} />
+                </div>
+                <div className={style.equipmentsCollapse}>
+                    <Collapse title={'Équipments'} content={logement.equipments} />
+                </div>
             </div>
             {/* {logement.pictures.length} */}
         </div>

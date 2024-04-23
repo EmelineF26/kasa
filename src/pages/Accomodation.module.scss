@@ -1,16 +1,37 @@
-.descriptionCollapse {
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .accomodationCollapse {
     display: flex;
-    gap: 55px;
-    width: 95%;
+    gap: 20px;
+    width: 100%;
+}
+
+// .buttonCollapse {
+//     width: 50%;
+// }
+
+.descriptionCollapse {
+    width: 50%;
+}
+
+.equipmentsCollapse {
+    width: 50%;
+}
+
+// .blocCollapse {
+//     width: 50%;
+// }
+
+.divHost {
+    display: flex;
+    justify-content: right;
+}
+
+.hostName {
+    padding-right: 10px;
 }
 
 .imgHost {
     border-radius: 58px;
+    width: 64px;
+    height: 64px;
     // margin-bottom: 6px;
 }
