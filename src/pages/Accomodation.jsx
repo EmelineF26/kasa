@@ -4,6 +4,7 @@ import './Error';
 import Collapse from '../components/Collapse';
 // import style from '../components/Collapse.module.scss';
 import style from './Accomodation.module.scss';
+import Rating from '../components/Rating';
 
 function Accomodation() {
     const { id } = useParams();
@@ -19,16 +20,14 @@ function Accomodation() {
         <div>
             <h1>{logement.title}</h1>
             <h3>{logement.location}</h3>
-                <div>
-                    {/* Emplacement des tags */}
-                </div>
+            <div>
+                <p>{logement.tags}</p>
+            </div>
             <div className={style.divHost}>
                 <h4 className={style.hostName}>{logement.host.name}</h4>
                 <img src={logement.host.picture} className={style.imgHost} alt='Avatar de la personne hébergeur' />
             </div>
-                <div>
-                    {/* Emplacement des stars */}
-                </div>
+            <Rating rating={logement.rating}/>
             <div className={style.accomodationCollapse}>
                 <div className={style.descriptionCollapse}>
                     <Collapse title={'Description'} content={logement.description} />
