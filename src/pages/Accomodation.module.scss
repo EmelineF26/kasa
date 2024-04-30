@@ -4,10 +4,6 @@
     width: 100%;
 }
 
-// .buttonCollapse {
-//     width: 50%;
-// }
-
 .descriptionCollapse {
     width: 50%;
 }
@@ -16,22 +12,41 @@
     width: 50%;
 }
 
-// .blocCollapse {
-//     width: 50%;
-// }
+.blocLogement {
+    display: flex;
+    justify-content: space-between;
+}
 
 .divHost {
+    margin-top: 31px;
+}
+
+.textHost {
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    padding-right: 8px;
 }
 
 .hostName {
     padding-right: 10px;
+    max-width: 120px;
+    box-sizing: border-box;
+    text-align: right;
 }
 
 .imgHost {
     border-radius: 58px;
     width: 64px;
     height: 64px;
-    // margin-bottom: 6px;
+}
+
+.grey_star {
+    color: grey;
+    font-size: 23px;
+}
+
+.pink_star {
+    color: pink;
+    font-size: 23px;
+    margin-left: 4%;
 }
