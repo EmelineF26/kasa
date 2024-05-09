@@ -1,69 +1,71 @@
+$color_1: white;
+$color_2: #FF6060;
+$background-color_1: #FF6060;
+$background-color_2: rgba(246, 246, 246, 0.45);
+$border-color_1: #FF6060;
+
 .ImgBanner {
-    width: 100%;
+	width: 100%;
 }
 
 .content {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 25px;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
 }
 
 .about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 button {
-    display: flex;
-    border-radius: 6px;
-    background-color: #FF6060;
-    color: white;
-    border-color: #FF6060;
-    padding: 5px;
+	display: flex;
+	border-radius: 6px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border-color: $border-color_1;
+	padding: 5px;
 }
 
-// .blocCollapse {
-//     width: 50%;
-// }
-
 .buttonCollapse {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .iconCollapse {
-    width: 23px;
-    height: 18.5px;
-    fill: white;
-} 
+	width: 23px;
+	height: 18.5px;
+	fill: white;
+}
 
 .closed {
-    transform: rotate(0);
-    transition: all 0.2s ease-in-out;
+	transform: rotate(0);
+	transition: all 0.2s ease-in-out;
 }
 
 .open {
-    transition: all 0.2s ease-in-out;
-    transform: rotate(-180deg);
+	transition: all 0.2s ease-in-out;
+	transform: rotate(-180deg);
 }
 
 .divCollapse {
-    max-height: 0;
-    color: #FF6060;
-    background-color: rgba(246, 246, 246, 0.45);
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    padding: 0;
-    margin: 0 0 1em 0;
-    border-radius: 0 0 10px 10px;
-    line-height: 25px;
+	max-height: 0;
+	color: $color_2;
+	background-color: $background-color_2;
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+	padding: 0;
+	margin: 0 0 1em 0;
+	border-radius: 0 0 10px 10px;
+	line-height: 25px;
 }
 
 .divOpen {
-    max-height: 200px;
-    transition: 0.5s ease-in-out;
-    padding: 10px;
+	max-height: 200px;
+	transition: 0.5s ease-in-out;
+	padding: 10px;
 }

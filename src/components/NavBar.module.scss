@@ -1,35 +1,37 @@
+$color_1: #FF6060;
+
 .navList {
-    display: flex;
-    margin-left: 56%;
-    padding: 11px;
-    gap: 59px;
-    list-style: none;
-    text-decoration: none;
+	display: flex;
+	margin-left: 56%;
+	padding: 11px;
+	gap: 59px;
+	list-style: none;
+	text-decoration: none;
 }
 
 .navbar {
-    display: flex;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+	display: flex;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 
 .Logo {
-    padding: 18px 22px;
-    height: 54px;
+	padding: 18px 22px;
+	height: 54px;
 }
 
 .Nav {
-    text-decoration: none;
-    color: #FF6060;
+	text-decoration: none;
+	color: $color_1;
 }
 
 .NavActive {
-    text-decoration: underline solid;
-    color: #FF6060;
+	text-decoration: underline solid;
+	color: $color_1;
 }
 
 h3 {
-    font-weight: normal;
-    font-size: 18px;
+	font-weight: normal;
+	font-size: 18px;
 }

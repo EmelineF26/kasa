@@ -1,24 +1,27 @@
+$color_1: white;
+$border-color_1: white;
+
 .title {
-    position: relative;
-    bottom: 70px;
-    left: 20px;
-    font-weight: 500;
-    font-size: 18px;
-    color: white;
+	position: relative;
+	bottom: 70px;
+	left: 20px;
+	font-weight: 500;
+	font-size: 18px;
+	color: $color_1;
 }
 
 .styleCards {
-    border: 1px solid;
-    border-color: white;
-    border-radius: 20px;
-    width: 30%;
-    height: 260px;
-    text-decoration: none;
+	border: 1px solid;
+	border-color: $border-color_1;
+	border-radius: 20px;
+	width: 30%;
+	height: 260px;
+	text-decoration: none;
 }
 
 .Image {
-    width: 100%;
-    height: 260px;
-    overflow: hidden;
-    border-radius: 20px;
+	width: 100%;
+	height: 260px;
+	overflow: hidden;
+	border-radius: 20px;
 }
