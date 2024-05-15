@@ -3,22 +3,25 @@ import { useState } from 'react';
 
 function Caroussel({ pictures, title }) {
     const [index, setIndex] = useState(0);
+    // const chevronNext = `${style.chevron}`;
 
     const nextPicture = () => {
-        const newIndex = (index + 1) % pictures.length;
-        setIndex(newIndex);
+        setIndex((index + 1) % pictures.length);
     };
 
     const prevPicture = () => {
-        const newIndex = (index - 1 + pictures.length) % pictures.length;
-        setIndex(newIndex);
+        setIndex((index - 1 + pictures.length) % pictures.length);
     };
 
     return (
-        <div>
-            <button onClick={prevPicture}>Previous</button>
-            <img src={pictures[index]} alt={title} />
-            <button onClick={nextPicture}>Next</button>
+        <div className={style.carousselDiv}>
+            <button onClick={prevPicture} className={style.button}>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+                <img className={style.imgCaroussel} src={pictures[index]} alt={title} />
+            <button onClick={nextPicture} className={style.buttonNext}>
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
         </div>
     );
 }
