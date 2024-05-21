@@ -2,16 +2,18 @@ $color_1: #FF6060;
 
 p {
 	text-align: center;
+	color: $color_1;
 }
 
 .error {
-	padding-left: 18%;
+	padding-left: 4%;
 }
 
 .nbError {
 	font-size: 11rem;
 	font-weight: 600;
 	margin: 3% 0 8% 0;
+	color: $color_1;
 }
 
 .linkAccueil {

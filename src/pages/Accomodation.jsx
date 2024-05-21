@@ -23,7 +23,7 @@ function Accomodation() {
             <div className={style.blocLogement}>
                 <div className={style.infosLogement}>
                     <h1 className={style.title}>{logement.title}</h1>               
-                    <h3>{logement.location}</h3>
+                    <h3 className={style.location}>{logement.location}</h3>
                     <div className={style.tags}>
                         {logement.tags.map((item, index) => (
                         <Tag key={index} tag={item} />
@@ -46,7 +46,6 @@ function Accomodation() {
                         <Collapse title={'Équipments'} content={logement.equipments} />
                     </div>
                 </div>
-            {/* {logement.pictures.length} */}
         </div>
     );
 }

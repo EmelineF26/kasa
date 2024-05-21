@@ -4,12 +4,19 @@ $color_3: pink;
 
 .title {
 	color: $color_1;
+	margin-bottom: 0;
+	margin-top: 32px;
+}
+
+.location {
+	margin: 11px 0px 27px 0px;
 }
 
 .accomodationCollapse {
 	display: flex;
 	gap: 20px;
 	width: 100%;
+	margin-bottom: 32px;
 }
 
 .descriptionCollapse {
@@ -23,7 +30,6 @@ $color_3: pink;
 .blocLogement {
 	display: flex;
 	justify-content: space-between;
-	position: relative;
 }
 
 .divHost {
