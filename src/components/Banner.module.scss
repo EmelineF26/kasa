@@ -22,3 +22,20 @@ $color_1: white;
 	z-index: 1;
 	line-height: 68px;
 }
+
+@media screen and (max-width: 768px) {
+	.banner {
+		padding: 18px;
+	}
+
+    .bannerImg {
+		width: 495px;
+		height: 164px;
+	}
+
+	.bannerText {
+		font-size: 24px;
+		font-weight: 700;
+		margin-left: 5%;
+	}
+}

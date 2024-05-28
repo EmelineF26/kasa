@@ -18,8 +18,8 @@ function Accomodation() {
     }
 
     return (
-        <div>
-            <Caroussel pictures={logement.pictures} title={logement.title} />
+        <>
+            {/* <Caroussel pictures={logement.pictures} title={logement.title} />
             <div className={style.blocLogement}>
                 <div className={style.infosLogement}>
                     <h1 className={style.title}>{logement.title}</h1>               
@@ -45,8 +45,8 @@ function Accomodation() {
                     <div className={style.equipmentsCollapse}>
                         <Collapse title={'Équipments'} content={logement.equipments} />
                     </div>
-                </div>
-        </div>
+                </div> */}
+        </>
     );
 }
 

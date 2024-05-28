@@ -21,3 +21,13 @@ p {
 	margin-bottom: 8%;
 	color: $color_1;
 }
+
+@media screen and (max-width: 768px) {
+	.error {
+		padding-right: 30%;
+	}
+
+	.nbError {
+		margin-top: 11%;
+	}
+}

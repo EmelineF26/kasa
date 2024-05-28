@@ -11,12 +11,12 @@ function NavBar() {
                 <ul className={style.navList}>
                     <li>
                         <NavLink to='/' className={({ isActive }) => isActive ? style.NavActive : style.Nav}>
-                            <h3>Accueil</h3>
+                            <span>Accueil</span>
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to='/About' className={({ isActive }) => isActive ? style.NavActive : style.Nav}>
-                            <h3>A Propos</h3>
+                            <span>A Propos</span>
                         </NavLink>
                     </li>
                 </ul>

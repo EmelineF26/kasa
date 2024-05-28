@@ -25,3 +25,22 @@ $border-color_1: white;
 	overflow: hidden;
 	border-radius: 20px;
 }
+
+@media screen and (max-width: 768px) {
+	.styleCards {
+		display: flex;
+		width: 85%;
+		margin-left: 30px;
+		gap: 12px;
+	}
+
+	.Image {
+		width: 405px;
+		height: 265px;
+	}
+
+	.title {
+		max-width: 80%;
+		bottom: 85px;
+	}
+}

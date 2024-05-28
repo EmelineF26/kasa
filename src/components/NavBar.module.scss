@@ -31,7 +31,18 @@ $color_1: #FF6060;
 	color: $color_1;
 }
 
-h3 {
+span {
 	font-weight: normal;
 	font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.Logo {
+		padding: 14px;
+		height: 46px;
+	}
+
+	.navList {
+		margin-left: 16%;
+	}
 }

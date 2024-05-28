@@ -19,3 +19,17 @@ $background-color_1: black;
 	margin: auto;
 	padding-top: 43px;
 }
+
+@media screen and (max-width: 768px) {
+	.footer {
+		margin-top: 79px;
+	}
+
+	.footerText {
+		margin-right: 24%;
+	}
+
+	.logoFooter {
+		padding-right: 24%;
+	}
+}
