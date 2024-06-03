@@ -2,15 +2,16 @@ $color_1: #FF6060;
 
 .navList {
 	display: flex;
-	margin-left: 56%;
-	padding: 11px;
-	gap: 59px;
+	align-self: center;
+	padding: 20px;
+	gap: 28px;
 	list-style: none;
 	text-decoration: none;
 }
 
 .navbar {
 	display: flex;
+	justify-content: space-between;
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
@@ -40,9 +41,5 @@ span {
 	.Logo {
 		padding: 14px;
 		height: 46px;
-	}
-
-	.navList {
-		margin-left: 16%;
 	}
 }

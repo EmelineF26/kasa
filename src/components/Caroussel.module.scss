@@ -3,12 +3,13 @@ $color_1: white;
 .carousselDiv {
 	height: 415px;
 	position: relative;
+	padding: 14px;
 }
 
 .buttonPrev {
 	position: absolute;
 	top: 38%;
-	left: 0;
+	left: 1%;
 	background: none;
 	border: none;
 	font-size: 88px;
@@ -17,7 +18,7 @@ $color_1: white;
 .buttonNext {
 	position: absolute;
 	top: 38%;
-	right: 0;
+	right: 1%;
 	background: none;
 	border: none;
 	font-size: 88px;
@@ -41,11 +42,18 @@ $color_1: white;
 
 @media screen and (max-width: 768px) {
 	.imgCaroussel {
-		width: 518px;
-		padding-left: 8px;
+		width: 100%;
 	}
 
+	// .carousselDiv {
+	// 	padding: 14px;
+	// }
+
 	.buttonNext {
-		margin-right: 31%;
+		margin-right: 10px;
+	}
+
+	.buttonPrev {
+		margin-left: 10px;
 	}
 }

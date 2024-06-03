@@ -21,15 +21,18 @@ $color_3: pink;
 
 .descriptionCollapse {
 	width: 50%;
+	padding-left: 6px;
 }
 
 .equipmentsCollapse {
 	width: 50%;
+	padding-right: 6px;
 }
 
 .blocLogement {
 	display: flex;
 	justify-content: space-between;
+	padding: 8px;
 }
 
 .divHost {
@@ -76,8 +79,12 @@ $color_3: pink;
 }
 
 @media screen and (max-width: 768px) {
+	.title {
+		margin-top: 8px;
+	}
+
 	.blocLogement {
-		padding-left: 8px;
+		// padding-left: 8px;
 		display: flex;
 		flex-direction: column;
 	}
@@ -86,10 +93,41 @@ $color_3: pink;
 		padding-left: 8px;
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 18px;
 	}
 
 	.divHost {
 		display: flex;
 		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-top: 11px;
+	}
+
+	.textHost {
+		padding-right: 15px;
+		margin-bottom: 4px;
+	}
+
+	.starsRating {
+		width: 180px;
+		margin-top: 11px;
+		padding-left: 6px;
+	}
+
+	.descriptionCollapse {
+		width: 96%;
+		display: flex;
+		align-self: center;
+		padding-right: 10px;
+	}
+
+	.equipmentsCollapse {
+		width: 96%;
+		align-self: center;
+		padding-right: 10px;
+	}
+
+	.infosLogement {
+		padding: 0px 15px 0px 13px;
 	}
 }

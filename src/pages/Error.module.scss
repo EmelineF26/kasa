@@ -1,12 +1,12 @@
 $color_1: #FF6060;
 
-p {
+.textError {
 	text-align: center;
 	color: $color_1;
 }
 
 .error {
-	padding-left: 4%;
+	text-align: center;
 }
 
 .nbError {
@@ -23,11 +23,12 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-	.error {
-		padding-right: 30%;
-	}
-
 	.nbError {
 		margin-top: 11%;
+	}
+
+	.textError {
+		padding-left: 36%;
+		max-width: 210px;
 	}
 }
