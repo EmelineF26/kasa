@@ -43,7 +43,7 @@ function Accomodation() {
                         <Collapse title={'Description'} content={logement.description} />
                     </div>
                     <div className={style.equipmentsCollapse}>
-                        <Collapse title={'Équipments'} content={logement.equipments} />
+                        <Collapse title={'Équipments'} content={logement.equipments.map((equipment, id) => <span key={id}>{equipment}</span>)} />
                     </div>
                 </div>
         </>

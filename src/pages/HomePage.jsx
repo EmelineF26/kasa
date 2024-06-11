@@ -10,7 +10,7 @@ function HomePage() {
         <div className={style.homePage}>
           <Banner text="Chez vous, partout et ailleurs" img={BannerImage} />
             <div className={style.cardsContainer}>
-              {data.map((item, index) => (
+              {data.map((item) => (
                 <Cards key={item.id} id={item.id} title={item.title} cover={item.cover} />
                   ))}
             </div>

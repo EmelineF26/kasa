@@ -68,6 +68,8 @@ button {
 	max-height: 200px;
 	transition: 0.5s ease-in-out;
 	padding: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
